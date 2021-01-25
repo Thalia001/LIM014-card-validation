@@ -1,0 +1,369 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right,  #C8B6FF 0%,#C8B6FF 50%,#B8C0FF 50%,#B8C0FF 100%);
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+
+.grid_2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+
+.page_right{
+    color:#000000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px; 
+    padding: 20px;
+}
+
+.page_right input{
+    margin: 15px;
+    font-size: 15px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 189, 186);
+    background-color: #C9DEEA;
+    font-weight: lighter;
+    text-indent:10pt;
+}
+
+#img{
+    text-align:center;
+}
+
+#titulo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+#titulo h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 60px;
+    margin: 0px;
+    color: #FE759E;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#menu{
+    padding:0;
+    display: block;
+    margin: 15px auto;
+    text-align:center;
+}    
+
+#menu li {
+    display: inline-block;
+    width:20%;
+    background-color: #E7C6FF;
+    margin: 0 -2px;
+    padding: 0.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+}
+
+#menu li:hover {
+    background-color: darkgrey;
+}
+
+#bienvenida{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin:90px;
+    font-size: 30px;
+}
+
+h2 {
+    text-align:center;
+    color: rgb(15, 15, 15);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+#pago{
+    font-size: 30px;
+}
+
+#tipo{
+    text-align:left;
+    color:#436288;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px; 
+    font-weight: bold;
+}
+
+#logotipo{
+    text-align:left;
+    margin: 15px;
+}
+
+#pagar{
+    text-decoration: none;
+    padding: center;
+    font-size: 25px;
+    color:#000000;
+    background-color: #ED4A7B;
+    border-radius: 8px; 
+    border: 1px solid rgb(183, 189, 186);
+    font-weight: bold;
+    width: 10em;
+    height:2em; 
+    margin: 0px; 
+}
+
+#pagar:hover{
+    background-color: rgb(208, 210, 211);
+}
+
+#tarjeta{
+    padding-top: 2em;
+    text-align:center;
+}
+
+#error{
+    color: rgb(214, 14, 14);
+    top:200px;
+    right:100px;
+    font-weight:bold;
+}
+
+#correcto{
+    color: rgb(23, 148, 40);
+    top:200px;
+    right:100px;
+    font-weight:bold;
+}
+
+#imagen8{
+    padding-top: 10px;
+    width: 20em;
+    height:10em;
+    border-radius: 8px; 
+}
+
+#imagen7{
+    padding-top: 10px;
+    width: 20em;
+    height:10em;
+    border-radius: 8px; 
+}
+
+#imagen6{
+    padding-top: 10px;
+    width: 20em;
+    height:10em;
+    border-radius: 8px; 
+}
+
+#afiliate1{
+    font-size: 25px;
+    color:#000000;
+    background-color: #ED4A7B;
+    border-radius: 8px; 
+    border: 1px solid rgb(183, 189, 186);
+    font-weight: bold;
+    width: 10em;
+    height:2em;
+    margin-left: 100px;
+}
+
+#afiliate1:hover{
+    background-color: rgb(208, 210, 211);
+}
+
+#afiliate2{
+    font-size: 25px;
+    color:#000000;
+    background-color: #ED4A7B;
+    border-radius: 8px; 
+    border: 1px solid rgb(183, 189, 186);
+    font-weight: bold;
+    width: 10em;
+    height:2em;
+    margin-left: 100px;
+}
+
+#afiliate2:hover{
+    background-color: rgb(208, 210, 211);
+}
+
+#continuar{
+    text-decoration: none;
+    padding: center;
+    font-size: 25px;
+    color:#000000;
+    background-color: #ED4A7B;
+    border-radius: 8px; 
+    border: 1px solid rgb(183, 189, 186);
+    font-weight: bold;
+    width: 10em;
+    height:2em;
+    position:absolute;
+    margin-left: 70px;
+}
+
+#continuar:hover{
+    background-color: rgb(208, 210, 211);
+}
+
+#imagen4{
+    padding-top: 150px;
+    width: 20em;
+    height:20em;
+}
+
+#imagen3{
+    padding-bottom: 150px;
+    width: 20em;
+    height:20em;
+}
+
+#suscribete input{
+    margin: 15px;
+    font-size: 15px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 189, 186);
+    background-color: #C9DEEA;
+    font-weight: lighter;
+    text-indent:10pt;
+}
+
+#imagen2{
+    padding-top: 150px;
+    width: 20em;
+    height:20em;
+}
+
+#imagen1{
+    padding-bottom: 150px;
+    width: 10em;
+    height:10em;
+}
+
+#imagen5{
+    padding-top: 10px;
+    width: 25em;
+    height:25em;
+}
+
+.caja1 { 
+    font-family: sans-serif; 
+    font-size: 20px; 
+    color: #030303; 
+    background:#C9DEEA;
+    margin: 40px;
+    width:300px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding: 40px; 
+}
+
+.caja2 { 
+    font-family: sans-serif; 
+    font-size: 20px; 
+    color: #030303; 
+    background:#C9DEEA;
+    margin: 40px;
+    width:300px;
+    height: 250px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding:40px;
+}
+
+#iniciasesion input{
+    margin: 15px;
+    font-size: 15px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 189, 186);
+    background-color: #C9DEEA;
+    font-weight: lighter;
+    text-indent:10pt;
+}
+
+#form{
+    font-size: 25px;
+    padding-top: 90px;
+}
+
+#completo{
+    padding-top: 100px;
+}
+
+.modal-container{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    width: 40%;
+    height: 50%;
+    background:#B8C0FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    transition: transform 1s;
+    transform: translateY(0%);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color:#c44a4a;
+    color: #fff;
+    line-height: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.modal-close{
+    transform:translateY(-200%);
+}
+
+.modal > img {
+    height:50% ;
+}
+
+#tipoplan{
+    color: #1b2d44;
+}
+

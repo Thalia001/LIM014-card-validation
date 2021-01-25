@@ -1,14 +1,184 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Crazy Drama</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ 
+    <section id="home">
+      <div id="titulo">
+        <h1>Crazy Dramas</h1>
+      </div>
+      <div class="grid">
+        <div class="page_left">
+          <header>
+            <nav>
+              <ul id="menu">
+                <a href="#planes"><li>Planes</li></a>
+                <a href="#suscribete"><li>Suscríbete</li></a>
+                <a href="#iniciasesion"><li>Inicia Sesión</li></a>
+              </ul>
+            </nav>
+          </header>
+          <p id="bienvenida">¡¡ Bienvenidos a Crazy Dramas !! En esta platafoma encontrarás doramas clasificados de acuerdo a
+            su género, contamos con diferentes planes de suscripción, para que tu experiencia sea maravillosa. <br />
+            ¡¡ Elige la que más te convenga y disfruta del contenido que tenemos para ti !!</p>
+        </div>
+        <div class="page_right"> 
+          <div id="img">
+            <img id="imagen8"src="img/giphy4.gif"><br />
+            <img id="imagen7"src="img/giphy1.gif"><br />
+            <img id="imagen6"src="img/giphy3.gif"><br />
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  
+
+  
+    <section id="planes">
+      <div class="grid_2">
+        <div>
+          <a href="#home"><div id="logotipo"><img src="img/logo_small.png"></div></a>
+          <div class="caja1">
+            Plan Estándar <br /> S/. 20.00.
+            <ul>
+              <li>Disfruta del 80% de nuestra programación.</li>
+              <li>Programación normal. </li>
+              <li>Disponible solo para 1 televisor.</li>
+            </ul>
+          </div>
+          <a href="#pago"><button id="afiliate1">AFILIATE</button></a>
+        </div>
+        <div>
+          <h2>Elige el plan que más te agrade</h2>
+          <img id="imagen5"src="img/giphy5.gif"align="center">
+        </div>
+        <div id="completo">
+          <div class="caja2">
+            Plan Premium <br /> S/. 40.00.
+            <ul>
+              <li>Disfruta del 100% de nuestra programación. </li>
+              <li>Programación en HD.  </li>
+              <li>Disponible para más de 2 televisores. </li>
+              <li>No cuenta con anuncios. </li>
+            </ul>
+          </div>
+          <a href="#pago"><button id="afiliate2">AFILIATE</button></a>
+        </div>
+      </div>
+    </section>
+ 
+  
+
+  
+    <section id="suscribete">
+      <div class="grid_2">
+        <div>
+          <a href="#home"><div id="logotipo"><img src="img/logo_small.png"></div></a>
+          <img id="imagen4"src="img/giphy6.gif" align="center">
+        </div>
+        <div id="form">
+          <h2>Suscríbete</h2><br />
+          <div>
+            <label>Usuario</label><br />
+              <input type="text" size="40"> <br />
+            <a href="#pago"><button id="continuar">CONTINUAR</button></a><br />
+          </div>
+        </div>
+        <div>
+          <img id="imagen3"src="img/giphy7.gif" align="right"> 
+        </div>
+      </div>
+    </section>
+
+
+
+  
+    <section id="iniciasesion">
+      <div class="grid_2">
+        <div>
+          <a href="#home"><div id="logotipo"><img src="img/logo_small.png"></div></a>
+          <img id="imagen2"src="img/giphy9.gif" align="center">
+        </div>
+        <div id="form">
+          <h2>Inicia Sesión</h2><br />
+          <div>
+            <label>Usuario</label><br />
+              <input type="text" size="40"> <br />
+            <label>Contraseña</label>
+              <input type="text" size="40"> <br />
+            <a href="#home"><button id="continuar">CONTINUAR</button></a><br />
+          </div>
+        </div>
+        <div>
+          <img id="imagen1"src="img/giphy8.gif" align="right"> 
+        </div>
+      </div>
+    </section>
+  
+  
+
+    <section id="pago">
+      <div class="grid">
+        <div class="page_left">
+          <a href="#home"><div id="logotipo"><img src="img/logo_small.png"></div></a>
+          <div id="tarjeta"><img src="img/card_vsmall.png"></div>
+        </div>
+        <div class="page_right">
+          <h1>Detalle de pago</h1>
+          <div id="tipo">
+            <p id="tipoplan">Usted está adquiriendo el plan x</p>
+          </div>
+          <div>
+            <label>Número de tarjeta</label><br />
+            <input id="cardnumber" type="text" size="40" maxlength="16" placeholder="Ingresa tu tarjeta">
+            <p id="error"></p>
+            <p id="correcto"></p>
+            <div>
+              <label>Nombre del titular de la tarjeta</label><br />
+              <input id="Cardholdername" type="text" size="40" placeholder="Ingrese nombre del titular de la tarjeta">
+            </div>
+            <div id="fecha">
+              <label>Fecha de caducidad de la tarjeta</label><br />
+              <input type="text" size="10" placeholder="mes" maxlength="2">
+              <input type="text" size="10" placeholder="año" maxlength="4">
+            </div>
+            <div>
+              <label>CVV</label><br />
+              <input id="codigocvv" type="text" size="20" maxlength="3" placeholder="Ingresa código CVV">
+            </div>
+  
+            <div id="pago">
+              <p id="total">Total S/.00.00</p>
+            </div>
+            <a href="#" class="cta"><button id="pagar">PAGAR</button></a>
+          </div>
+      </div>
+    </section>
+
+    <div class="modal-container">
+      <div class="modal modal-close">
+        <a href="#home"><p class="close">x</p></a>
+        <img src="img/gracias3.gif" alt="">
+        <div class="modal-textos">
+          <h3>¡¡Muchas gracias por suscribirte!!</h2>
+          <p>Ya puedes disfrutar de nuestro contenido.<br />¡¡Diviertete!!</p>
+        </div>
+      </div>
+    </div>
+
+
+  
+  
+      <main></main>
+      <footer></footer>  
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
